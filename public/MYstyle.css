@@ -1,0 +1,88 @@
+body {
+	background: #aaad7a;
+	font-family: Courier New, Courier, Optima, Palatino Linotype, Palatino, serif;
+	/* font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif; */
+	word-break: break-word;
+	text-align: center;
+}
+/*
+.cat {
+	overflow: hidden;
+	margin: 0 auto;
+}
+*/
+
+.cat img {
+	transition: 0.5s all ease-in-out;
+}
+.enlargeOnHover:hover {
+	transform: scale(1.4);
+	padding: 2em 0;
+}
+
+table, th, td {
+	border: solid black 1px;
+	border-collapse: collapse;
+	padding: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.thCenter {
+	text-align: center;
+}
+
+.tdPlain:hover {
+	background-color: #babe4d;
+	transition: .5s;
+	transition-timing-function: ease;
+}
+
+td:hover {
+    background-color: #babe4d;
+    transition: .5s;
+    transition-timing-function: ease;
+  }
+
+pre {
+	font-family: Courier New, Courier, Optima, Palatino Linotype, Palatino, serif;
+}
+
+p {
+	word-wrap: normal;
+}
+
+a:link, a:visited {
+	/*
+	color: #cf1fca;
+	*/
+
+	/*
+	color: #04410c;
+	*/
+
+	color: #110db0;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #e1ec3c;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+/*
+.center {
+	text-align: center;
+	position: relative;
+}
+*/
+
+/* something */
