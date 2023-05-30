@@ -1,11 +1,13 @@
 // import { ChatEngine } from 'react-chat-engine';
 import Particles from 'react-particles';
-import Poop from './Poop';
+import Poop from './components/Poop';
+import Poop2 from './components/Poop2';
 import React from 'react';
 import './App.css';
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
 import { Container, Engine } from "tsparticles-engine";
+import { Routes, Route } from "react-router-dom";
 
 
 
@@ -149,7 +151,10 @@ const App = () => {
 
     return (
       <React.Fragment>
-      <Poop />
+        <Routes>
+        <Route path="/" element={<Poop />} exact />
+        <Route path="/page2" element={<Poop2 />} />
+        </Routes>
         <Particles
             id="tsparticles"
             init={particlesInit}
@@ -235,4 +240,4 @@ const App = () => {
 
 
 
-export default App;
+export default (App);
