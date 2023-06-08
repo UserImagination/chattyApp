@@ -2,6 +2,7 @@
 import Particles from 'react-particles';
 import Poop from './components/Poop';
 import Poop2 from './components/Poop2';
+import Poop3 from './components/Poop3';
 import React from 'react';
 import './App.css';
 import { loadFull } from "tsparticles";
@@ -154,6 +155,7 @@ const App = () => {
         <Routes>
         <Route path="/" element={<Poop />} exact />
         <Route path="/page2" element={<Poop2 />} />
+        <Route path="/page3" element={<Poop3 />} />
         </Routes>
         <Particles
             id="tsparticles"
