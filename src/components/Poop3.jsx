@@ -6,8 +6,13 @@ class Poop extends React.Component {
     return (
     <div>
       <Link to='/'>Link to Home</Link>
-      <h1>Hi</h1>
-      <h2>This is a Page 2</h2>
+      <h1>Hello</h1>
+      <h2>This is a Page 3</h2>
+
+      <div class="cat">
+		<img src="3d-cat.gif" class="enlargeOnHover"></img>
+	</div>
+
     </div>
     );
   }

@@ -5,7 +5,8 @@ class Poop extends React.Component {
     render(){
     return (
         <div>
-            <Link to='Page2'>Link to page 2</Link>
+            <Link to='Page2'>Link to page 2</Link> <br/>
+            <Link to='Page3'>Link to page 3</Link>
             <h1>This is a homepage</h1>
         </div>
         );
